@@ -20,6 +20,7 @@
   "license": "MIT",
   "description": "A minimal Webpack template for vanilla JavaScript projects",
   "devDependencies": {
+    "@babel/preset-env": "^7.29.0",
     "@eslint/js": "^9.39.2",
     "css-loader": "^7.1.2",
     "eslint": "^9.39.2",
