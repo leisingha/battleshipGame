@@ -2,6 +2,7 @@ class GameBoard {
     constructor() {
         this.board = Array(10).fill(null).map(() => Array(10).fill(null));
         this.missedAttacks = [];
+        this.attackedCells = [];
         this.ships = [];
     }
 
@@ -17,6 +18,7 @@ class GameBoard {
     }
 
     receiveAttack(row, col) {
+        this.attackedCells.push([row, col]);
         const target = this.board[row][col];
         if (target) {
             target.hit();

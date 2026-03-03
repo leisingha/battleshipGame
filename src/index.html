@@ -3,14 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Placeholder Title</title>
+    <title>BATTLESHIP</title>
   </head>
   <body>
     <header>
-      <nav>
-        <h1>Untitled</h1>
-      </nav>
+      <h1>Battleship</h1>
     </header>
-    <main></main>
+    <main>
+      <p id="status-message">Place your ships and start the game!</p>
+      <div id="boards">
+        <div class="board-container">
+          <h2>Your Board</h2>
+          <div id="player-board" class="board"></div>
+        </div>
+        <div class="board-container">
+          <h2>Enemy Board</h2>
+          <div id="enemy-board" class="board"></div>
+        </div>
+      </div>
+      <button id="start-btn">Start Game</button>
+    </main>
   </body>
 </html>
