@@ -1,5 +1,5 @@
-const { GameBoard } = require("../src/gameBoard");
-const { Ship } = require("../src/shipClass");
+const { GameBoard } = require('../src/gameBoard');
+const { Ship } = require('../src/shipClass');
 
 describe('GameBoard', () => {
     test('board initializes as 10x10 grid of nulls', () => {
